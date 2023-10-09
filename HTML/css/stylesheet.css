@@ -1,0 +1,149 @@
+html{
+    font-size: 15px;
+    --bg: brown;
+    scroll-behavior: smooth;
+}
+
+:root{
+    background-color: seashell;
+}
+
+.navigation{
+    background-color: var(--bg);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.menu:hover {
+    color: brown;
+    transition-duration: 500ms;
+}
+
+
+.menu{
+    background-color: black;
+    border-radius: 100px;
+    padding: 20px;
+    color:white;
+    margin: 10px;
+}
+
+.killian{
+    float: right;
+    width: 400px;
+    border-radius: 1000px;
+    padding-top: 100px;
+}
+
+.killian img{
+    display: flex;
+    align-self: flex-end;
+    width: 400px;
+    border-radius: 1000px;
+}
+
+h1, h2, footer{
+    color:brown;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    font-size: 2em;
+    line-height: 120%;
+}
+
+h2{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 1em;
+    line-height: 100%;
+}
+
+footer{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    text-align: center;
+}
+
+.imgblog{
+    width: 100%;
+    opacity: 0.85;
+    max-width: 500px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.imgblog:hover{
+    opacity: 1;
+}
+
+iframe{
+    margin: 10px;
+}
+
+.frame{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color:brown;
+    text-align: center;
+    font-size: 25px;
+}
+
+input{
+    background-color: seashell;
+    border-color: black;
+    color: black;
+}
+
+#button{
+    background-color: seashell;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 25em;
+}
+
+input[type="checkbox"]{
+    margin-top: 1em;
+}
+
+ul.exp li{
+    margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
